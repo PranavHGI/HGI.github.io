@@ -1,0 +1,82 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+	background-image:url("back.jpg");
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+
+}
+
+.container
+{
+    width: 45%;
+    height: 60vh;
+    padding: 10px;
+    background: BLACK;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px BLACK;
+             
+    
+}
+
+.display #screen
+{
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecedf388;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px #cccbd196,
+                inset -8px -8px #];
+
+}
+
+.btns 
+{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns .row button
+{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px GOLD;
+                transition: .0.5s;
+}
+
+.btns .row button:hover
+{
+    box-shadow: inset 1px 1px 2px rgba(16, 16, 16,.1),
+                inset -1px -1px 2px BLACK;
+                background: GOLD;
+
+}
+
+#eval
+{
+    background: #0000ff;
+    color: #BC8F8F;
+    box-shadow: inset 5px 5px 8px #0000ff,
+                inset -5px -5px 8px #0000ff;
+                
+}
